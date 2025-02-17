@@ -1,0 +1,34 @@
+h2 {
+  display: flex;
+  justify-content: center;
+}
+#organize {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+}
+img {
+  width: 30%;
+}
+#imgmobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #organize {
+    display: inline;
+  }
+  img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+}

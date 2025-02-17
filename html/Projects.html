@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <!--Link to individual stylesheet,generalstylesheet, and favicon-->
+    <link rel="stylesheet" href="../css/GeneralStyle.css" />
+    <link rel="stylesheet" href="../css/ProjectsStyle.css" />
+    <link rel="icon" href="/images/Favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <!--Page heading and nav bar-->
+      <h1>Projects</h1>
+      <nav>
+        <div class="link">
+          <div>
+            <a href="../index.html">Main Page</a>
+          </div>
+          <div>
+            <a href="../html/Resume.html">Resume</a>
+          </div>
+          <div>
+            <a href="../html/MainClasses.html">Main Classes</a>
+          </div>
+          <div>
+            <a href="../html/CurrentGoals.html">Current Goals</a>
+          </div>
+          <div>
+            <a href="../html/Projects.html">Projects</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h2>Arduino Projects</h2>
+    <main>
+      <!--grid container acts as the overall for the grid-->
+      <div id="grid-container">
+        <!--grid-item allows effective changes to multiple entities-->
+        <div class="grid-item">
+          <h3>Project title - Spaceship Interface</h3>
+          <!--image-fix is used to rotate images that were taken at the wrong perspective-->
+          <img
+            class="Image-fix"
+            src="../images/SpaceInterface.jpg"
+            alt="Arduino Project Spaceship Interface"
+          />
+          <!--remove is used to adjust for mobile-->
+          <p>
+            Green Light stays on until the button is hit
+            <br class="remove" />which causes the red lights to alternate while
+            <br class="remove" />the green light turns off.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Heat Sensor</h3>
+          <img
+            class="Image-fix"
+            src="../images/HeatSensor.jpg"
+            alt="Arduino Project Heat Sensor"
+          />
+          <p>
+            Once the heat sensor detects heat more lights will
+            <br class="remove" />continue to light up the higher the
+            temperature.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Color Mixing Lamp</h3>
+          <img
+            src="../images/ColorMixingLamp.jpg"
+            alt="Arduino Project Color Mixing Lamp"
+          />
+          <p>
+            The LED emits different colors based on the input
+            <br class="remove" />of different types of light from the light
+            sensors
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Mood Cue</h3>
+          <img
+            class="Image-fix"
+            src="../images/MoodCue.jpg"
+            alt="Arduino Project Mood Cue"
+          />
+          <p>
+            The dial changes the direction of the servo <br class="remove" />
+            to point at different areas on a chart.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Light Theremin</h3>
+          <img
+            class="Image-fix"
+            src="../images/Light Theremin.jpg"
+            alt="Arduino Project Light Theremin"
+          />
+          <p>
+            The piezo plays a different pitch based on <br class="remove" />the
+            amount of light exposed to the light sensor
+            <br class="remove" />mimicking a theremin.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Keyboard Instrument</h3>
+          <img
+            src="../images/Keyboard Instrument.jpg"
+            alt="Arduino Project Keyboard Instrument"
+          />
+          <p>
+            The buttons cause the piezo to play different tunes<br
+              class="remove"
+            />
+            and overall mimic a very simple piano.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Digital Hourglass</h3>
+          <img
+            src="../images/Digital Hourglass.jpg"
+            alt="Arduino Project Digital Hourglass"
+          />
+          <p>
+            The LEDs light up, one every ten minutes <br class="remove" />up to
+            an hour so long as the tilt sensor detects <br class="remove" />it
+            not right side up.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Motorized Pinwheel</h3>
+          <img
+            src="../images/motorized pinwheel.jpg"
+            alt="Arduino Project Motorized Pinwheel"
+          />
+          <p>
+            A design is attached to the motor so that when<br class="remove" />
+            the button is pressed it spins fast enough to create<br
+              class="remove"
+            />
+            a different repeating design.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Zoetrope</h3>
+          <img src="../images/Zoetrope.jpg" alt="Arduino Project Zoetrope" />
+          <p>
+            A group of still images is created then spun by the
+            <br class="remove" />motor to create something similar to animation.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Crystal Ball</h3>
+          <img
+            src="../images/CrystalBall.jpg"
+            alt="Arduino Project Crystal Ball"
+          />
+          <p>
+            The tilt sensor is set to activate the programming<br
+              class="remove"
+            />
+            and randomly display text on the screen from a
+            <br class="remove" />list of responses.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Project title - Knock Lock</h3>
+          <img
+            src="../images/Knock Lock.jpg"
+            alt="Arduino Project Knock Lock"
+          />
+          <p>
+            The piezo acts as a noise sensor and moves the servo<br
+              class="remove"
+            />
+            when conditions are met in this case its the correct<br
+              class="remove"
+            />
+            number of valid noises.
+          </p>
+        </div>
+      </div>
+      <h2>Crystal Ball Example</h2>
+      <div id="video">
+        <video width="1250" height="750" muted controls>
+          <source
+            src="../images/Liquid Crystal Display Example - Made with Clipchamp.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </main>
+    <footer>
+      <!--Info intentionally left blank and classes given to differentiate
+       between others that may appear throughout-->
+      <h3 class="contactheader">Contact Me</h3>
+      <div class="contactholder">
+        <ul class="contactlist">
+          <li class="contact">Phone:###-###-####</li>
+          <li class="contact">Email:random@gmail.com</li>
+          <li class="contact">Social:PlaceHolder</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
